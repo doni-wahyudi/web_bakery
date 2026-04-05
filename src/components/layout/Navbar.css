@@ -10,10 +10,31 @@
 }
 
 .navbar--scrolled {
-  background: rgba(255, 248, 240, 0.95);
+  background: rgba(255, 248, 240, 0.96);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  box-shadow: 0 2px 20px rgba(44, 24, 16, 0.08);
+  box-shadow: 0 4px 30px rgba(44, 24, 16, 0.1);
+}
+
+.navbar--scrolled .navbar__logo-name {
+  color: var(--color-dark);
+}
+
+.navbar--scrolled .navbar__logo-tagline {
+  color: var(--color-primary-light);
+}
+
+.navbar--scrolled .navbar__link {
+  color: var(--color-text-muted);
+}
+
+.navbar--scrolled .navbar__link:hover,
+.navbar--scrolled .navbar__link--active {
+  color: var(--color-primary);
+}
+
+.navbar--scrolled .navbar__hamburger span {
+  background: var(--color-dark);
 }
 
 .navbar__container {
@@ -45,15 +66,17 @@
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: var(--text-xl);
-  color: var(--color-dark);
+  color: white;
   line-height: 1.1;
+  transition: color var(--transition-base);
 }
 
 .navbar__logo-tagline {
   font-family: var(--font-accent);
   font-size: var(--text-sm);
-  color: var(--color-primary-light);
+  color: var(--color-accent-light);
   line-height: 1;
+  transition: color var(--transition-base);
 }
 
 /* Menu */
@@ -73,7 +96,7 @@
   padding: 0.5rem 1rem;
   font-size: var(--text-sm);
   font-weight: 500;
-  color: var(--color-text);
+  color: rgba(255, 255, 255, 0.9);
   border-radius: var(--radius-full);
   transition: all var(--transition-base);
   position: relative;
@@ -126,7 +149,7 @@
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--color-dark);
+  background: white;
   border-radius: 2px;
   transition: all var(--transition-base);
 }
@@ -212,8 +235,20 @@
   }
 
   .navbar {
-    background: rgba(255, 248, 240, 0.95);
+    background: rgba(255, 248, 240, 0.96);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+  }
+
+  .navbar .navbar__logo-name {
+    color: var(--color-dark);
+  }
+
+  .navbar .navbar__logo-tagline {
+    color: var(--color-primary-light);
+  }
+
+  .navbar .navbar__hamburger span {
+    background: var(--color-dark);
   }
 }
