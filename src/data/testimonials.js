@@ -1,0 +1,42 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: "Sarah Wijaya",
+    role: "Wedding Client",
+    text: "The wedding cake was absolutely stunning! Not only did it look incredible, but it tasted even better. Our guests couldn't stop talking about it. Sweet Delights truly made our special day even more magical.",
+    rating: 5,
+    avatar: "SW",
+  },
+  {
+    id: 2,
+    name: "Budi Santoso",
+    role: "Regular Customer",
+    text: "I've been buying their artisan sourdough every week for the past year. It's the best bread I've ever had - crispy on the outside, perfectly chewy on the inside. This bakery is a gem!",
+    rating: 5,
+    avatar: "BS",
+  },
+  {
+    id: 3,
+    name: "Rina Puspita",
+    role: "Birthday Celebration",
+    text: "Ordered a custom birthday cake for my daughter's 7th birthday party. The unicorn design was exactly what she wanted! The kids loved it. Will definitely order again for every celebration.",
+    rating: 5,
+    avatar: "RP",
+  },
+  {
+    id: 4,
+    name: "Michael Tan",
+    role: "Corporate Client",
+    text: "We order their pastry boxes for our office meetings regularly. The quality is consistently excellent, and the presentation is always beautiful. Highly recommended for corporate events!",
+    rating: 5,
+    avatar: "MT",
+  },
+  {
+    id: 5,
+    name: "Dewi Lestari",
+    role: "Cupcake Lover",
+    text: "The cupcakes are divine! The buttercream frosting is smooth and not too sweet - perfectly balanced. I always get the assorted box whenever I need to bring something to a gathering.",
+    rating: 5,
+    avatar: "DL",
+  },
+];

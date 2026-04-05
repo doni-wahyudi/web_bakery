@@ -1,0 +1,85 @@
+.cta-banner {
+  position: relative;
+  padding: var(--space-5xl) 0;
+  overflow: hidden;
+}
+
+.cta-banner__bg {
+  position: absolute;
+  inset: 0;
+}
+
+.cta-banner__bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-banner__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(44, 24, 16, 0.88) 0%,
+    rgba(44, 24, 16, 0.7) 100%
+  );
+}
+
+.cta-banner__content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 700px;
+}
+
+.cta-banner__label {
+  font-family: var(--font-accent);
+  font-size: var(--text-xl);
+  color: var(--color-accent);
+  display: block;
+  margin-bottom: var(--space-md);
+}
+
+.cta-banner__title {
+  font-size: var(--text-4xl);
+  color: white;
+  margin-bottom: var(--space-lg);
+  line-height: 1.3;
+}
+
+.cta-banner__text {
+  font-size: var(--text-lg);
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: var(--space-2xl);
+  line-height: 1.7;
+}
+
+.cta-banner__actions {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-banner__contact-btn {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+.cta-banner__contact-btn:hover {
+  background: white;
+  color: var(--color-dark);
+  border-color: white;
+}
+
+@media (max-width: 768px) {
+  .cta-banner__actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-banner__actions .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}

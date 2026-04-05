@@ -1,0 +1,123 @@
+.contact-info__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-3xl);
+}
+
+.contact-info__card {
+  text-align: center;
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact-info__icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-md);
+  display: block;
+}
+
+.contact-info__title {
+  font-size: var(--text-lg);
+  color: var(--color-dark);
+  margin-bottom: var(--space-sm);
+}
+
+.contact-info__detail {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.contact-info__action {
+  margin-top: auto;
+  padding-top: var(--space-md);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+  transition: all var(--transition-fast);
+}
+
+.contact-info__card:hover .contact-info__action {
+  color: var(--color-primary-dark);
+  transform: translateX(4px);
+}
+
+/* Hours */
+.contact-info__hours {
+  background: var(--color-cream);
+  padding: var(--space-2xl);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-3xl);
+}
+
+.contact-info__hours-title {
+  font-size: var(--text-xl);
+  color: var(--color-dark);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.contact-info__hours-table {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-info__hours-row {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.contact-info__hours-row:last-child {
+  border-bottom: none;
+}
+
+.contact-info__hours-day {
+  font-weight: 500;
+  color: var(--color-dark);
+  font-size: var(--text-sm);
+}
+
+.contact-info__hours-time {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+
+/* Map */
+.contact-info__map-title {
+  font-size: var(--text-xl);
+  color: var(--color-dark);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.contact-info__map-frame {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.contact-info__map-frame iframe {
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .contact-info__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-info__cards {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin: 0 auto var(--space-3xl);
+  }
+}
