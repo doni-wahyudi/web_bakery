@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import WhatsAppFloat from './components/layout/WhatsAppFloat';
@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/web_bakery">
+    <Router>
       <Preloader />
       <div className="app">
         <Navbar />
