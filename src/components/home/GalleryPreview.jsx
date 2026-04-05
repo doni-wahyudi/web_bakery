@@ -6,7 +6,6 @@ const galleryImages = [
   { src: import.meta.env.BASE_URL + "images/croissants.png", alt: "Butter croissants" },
   { src: import.meta.env.BASE_URL + "images/pastries.png", alt: "French pastries" },
   { src: import.meta.env.BASE_URL + "images/cookies.png", alt: "Assorted cookies" },
-  { src: import.meta.env.BASE_URL + "images/artisan-bread.png", alt: "Artisan sourdough" },
 ];
 
 export default function GalleryPreview() {
