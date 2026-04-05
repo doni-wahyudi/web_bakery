@@ -116,7 +116,13 @@
 }
 
 .navbar__link:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+.navbar--scrolled .navbar__link:hover {
   color: var(--color-primary);
+  text-shadow: none;
 }
 
 .navbar__link:hover::after,
@@ -125,8 +131,12 @@
 }
 
 .navbar__link--active {
-  color: var(--color-primary);
+  color: var(--color-accent);
   font-weight: 600;
+}
+
+.navbar--scrolled .navbar__link--active {
+  color: var(--color-primary);
 }
 
 .navbar__cta {
