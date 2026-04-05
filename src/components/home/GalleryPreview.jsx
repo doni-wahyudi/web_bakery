@@ -1,12 +1,12 @@
 import './GalleryPreview.css';
 
 const galleryImages = [
-  { src: "/images/wedding-cake.png", alt: "Elegant wedding cake" },
-  { src: "/images/cupcakes.png", alt: "Gourmet cupcakes" },
-  { src: "/images/croissants.png", alt: "Butter croissants" },
-  { src: "/images/pastries.png", alt: "French pastries" },
-  { src: "/images/cookies.png", alt: "Assorted cookies" },
-  { src: "/images/artisan-bread.png", alt: "Artisan sourdough" },
+  { src: import.meta.env.BASE_URL + "images/wedding-cake.png", alt: "Elegant wedding cake" },
+  { src: import.meta.env.BASE_URL + "images/cupcakes.png", alt: "Gourmet cupcakes" },
+  { src: import.meta.env.BASE_URL + "images/croissants.png", alt: "Butter croissants" },
+  { src: import.meta.env.BASE_URL + "images/pastries.png", alt: "French pastries" },
+  { src: import.meta.env.BASE_URL + "images/cookies.png", alt: "Assorted cookies" },
+  { src: import.meta.env.BASE_URL + "images/artisan-bread.png", alt: "Artisan sourdough" },
 ];
 
 export default function GalleryPreview() {

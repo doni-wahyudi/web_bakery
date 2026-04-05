@@ -6,7 +6,7 @@ export default function OurStory() {
       <div className="container">
         <div className="our-story__grid">
           <div className="our-story__image">
-            <img src="/images/bakery-interior.png" alt="Our bakery interior" />
+            <img src={import.meta.env.BASE_URL + "images/bakery-interior.png"} alt="Our bakery interior" />
             <div className="our-story__image-accent">
               <span className="our-story__years">5+</span>
               <span className="our-story__years-text">Years of Baking</span>

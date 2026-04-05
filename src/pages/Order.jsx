@@ -7,7 +7,7 @@ export default function Order() {
     <main className="page-transition-enter-active" id="order-page">
       <section className="page-header">
         <div className="page-header__bg">
-          <img src="/images/birthday-cake.png" alt="Order now" />
+          <img src={import.meta.env.BASE_URL + "images/birthday-cake.png"} alt="Order now" />
           <div className="page-header__overlay"></div>
         </div>
         <div className="container page-header__content">

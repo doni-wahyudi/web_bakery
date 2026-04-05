@@ -5,7 +5,7 @@ export default function CtaBanner() {
   return (
     <section className="cta-banner" id="cta-banner">
       <div className="cta-banner__bg">
-        <img src="/images/bakery-interior.png" alt="Our bakery" />
+        <img src={import.meta.env.BASE_URL + "images/bakery-interior.png"} alt="Our bakery" />
         <div className="cta-banner__overlay"></div>
       </div>
       <div className="container cta-banner__content">

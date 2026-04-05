@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/web_bakery">
       <Preloader />
       <div className="app">
         <Navbar />

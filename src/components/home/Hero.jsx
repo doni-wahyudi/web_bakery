@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="hero" id="hero-section">
       <div className="hero__bg">
-        <img src="/images/hero-bg.png" alt="Bakery display" className="hero__bg-img" />
+        <img src={import.meta.env.BASE_URL + "images/hero-bg.png"} alt="Bakery display" className="hero__bg-img" />
         <div className="hero__overlay"></div>
       </div>
 

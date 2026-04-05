@@ -7,7 +7,7 @@ export default function Contact() {
     <main className="page-transition-enter-active" id="contact-page">
       <section className="page-header">
         <div className="page-header__bg">
-          <img src="/images/bakery-interior.png" alt="Contact us" />
+          <img src={import.meta.env.BASE_URL + "images/bakery-interior.png"} alt="Contact us" />
           <div className="page-header__overlay"></div>
         </div>
         <div className="container page-header__content">

@@ -6,7 +6,7 @@ export const products = [
     category: "cakes",
     description: "A beautifully decorated birthday cake with buttercream frosting, available in chocolate, vanilla, or red velvet.",
     price: "Starting from Rp 250.000",
-    image: "/images/birthday-cake.png",
+    image: import.meta.env.BASE_URL + "images/birthday-cake.png",
     badge: "Best Seller",
   },
   {
@@ -15,7 +15,7 @@ export const products = [
     category: "cakes",
     description: "Multi-tiered wedding cake with fondant, custom floral decorations, and elegant design tailored to your special day.",
     price: "Starting from Rp 1.500.000",
-    image: "/images/wedding-cake.png",
+    image: import.meta.env.BASE_URL + "images/wedding-cake.png",
     badge: "Premium",
   },
   {
@@ -24,7 +24,7 @@ export const products = [
     category: "cakes",
     description: "Fully customized cake for any occasion. Choose your flavor, design, and decorations. Perfect for themed parties.",
     price: "Starting from Rp 350.000",
-    image: "/images/birthday-cake.png",
+    image: import.meta.env.BASE_URL + "images/birthday-cake.png",
     badge: "Custom",
   },
 
@@ -35,7 +35,7 @@ export const products = [
     category: "pastries",
     description: "Flaky, golden, and buttery croissant baked to perfection every morning. A French classic with authentic taste.",
     price: "Rp 25.000",
-    image: "/images/croissants.png",
+    image: import.meta.env.BASE_URL + "images/croissants.png",
     badge: "Fresh Daily",
   },
   {
@@ -44,7 +44,7 @@ export const products = [
     category: "pastries",
     description: "Assorted box of éclairs, fruit tarts, cream puffs, and mille-feuille. Perfect as a gift or for afternoon tea.",
     price: "Rp 180.000",
-    image: "/images/pastries.png",
+    image: import.meta.env.BASE_URL + "images/pastries.png",
     badge: "Popular",
   },
   {
@@ -53,7 +53,7 @@ export const products = [
     category: "pastries",
     description: "Light choux pastry filled with rich vanilla cream and topped with a glossy chocolate ganache.",
     price: "Rp 30.000",
-    image: "/images/pastries.png",
+    image: import.meta.env.BASE_URL + "images/pastries.png",
     badge: "",
   },
 
@@ -64,7 +64,7 @@ export const products = [
     category: "bread",
     description: "Naturally leavened sourdough with a crispy crust and chewy interior. Made with our 3-year-old starter.",
     price: "Rp 65.000",
-    image: "/images/artisan-bread.png",
+    image: import.meta.env.BASE_URL + "images/artisan-bread.png",
     badge: "Artisan",
   },
   {
@@ -73,7 +73,7 @@ export const products = [
     category: "bread",
     description: "Healthy whole wheat bread made with premium flour, perfect for daily sandwiches and toast.",
     price: "Rp 45.000",
-    image: "/images/artisan-bread.png",
+    image: import.meta.env.BASE_URL + "images/artisan-bread.png",
     badge: "",
   },
 
@@ -84,7 +84,7 @@ export const products = [
     category: "cookies",
     description: "A box of 12 handcrafted cookies including chocolate chip, double chocolate, oatmeal raisin, and snickerdoodle.",
     price: "Rp 120.000",
-    image: "/images/cookies.png",
+    image: import.meta.env.BASE_URL + "images/cookies.png",
     badge: "Gift Set",
   },
   {
@@ -93,7 +93,7 @@ export const products = [
     category: "cookies",
     description: "Classic chunky chocolate chip cookies with crispy edges and a soft, chewy center. 6 pieces per pack.",
     price: "Rp 55.000",
-    image: "/images/cookies.png",
+    image: import.meta.env.BASE_URL + "images/cookies.png",
     badge: "Best Seller",
   },
 
@@ -104,7 +104,7 @@ export const products = [
     category: "cupcakes",
     description: "Beautiful cupcakes with swirled buttercream in pastel colors. Available in vanilla, chocolate, and strawberry.",
     price: "Rp 35.000 / pc",
-    image: "/images/cupcakes.png",
+    image: import.meta.env.BASE_URL + "images/cupcakes.png",
     badge: "Popular",
   },
   {
@@ -113,7 +113,7 @@ export const products = [
     category: "cupcakes",
     description: "Assorted box of 12 gourmet cupcakes, perfect for parties, office celebrations, or as a sweet gift.",
     price: "Rp 350.000",
-    image: "/images/cupcakes.png",
+    image: import.meta.env.BASE_URL + "images/cupcakes.png",
     badge: "Party Pack",
   },
 ];

@@ -64,7 +64,7 @@ export default function AnimatedCounters() {
   return (
     <section className="counters" id="animated-counters" ref={ref}>
       <div className="counters__bg">
-        <img src="/images/hero-bg.png" alt="" />
+        <img src={import.meta.env.BASE_URL + "images/bakery-hero.png"} alt="Bakery background" />
         <div className="counters__overlay"></div>
       </div>
       <div className="container counters__content">

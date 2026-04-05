@@ -16,7 +16,7 @@ export default function Catalog() {
     <main className="page-transition-enter-active" id="catalog-page">
       <section className="page-header">
         <div className="page-header__bg">
-          <img src="/images/hero-bg.png" alt="Our products" />
+          <img src={import.meta.env.BASE_URL + "images/hero-bg.png"} alt="Our products" />
           <div className="page-header__overlay"></div>
         </div>
         <div className="container page-header__content">
